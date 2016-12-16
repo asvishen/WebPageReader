@@ -18,6 +18,7 @@ public class MainApp {
 	public static void main(String[] args) throws IOException
 	{
 		PageExtractor extractor = new PageExtractor(args[0],args[1]);
+		System.out.println(args[0]);
 		extractor.extract();		
 	}
 	
